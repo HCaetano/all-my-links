@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementsByClassName("content__image")[0].src = data.avatar;
       document.getElementsByClassName("content__name")[0].textContent = data.name;
       document.getElementsByClassName("content__description")[0].textContent = data.description;
+      document.getElementsByClassName("content__description")[1].textContent = data.location;
 
       // render links block
       const linksList = document.getElementsByClassName("content__link-container")[0];

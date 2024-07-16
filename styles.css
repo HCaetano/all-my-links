@@ -1,70 +1,106 @@
-body { 
-    background-image: url('background.jpg');
-    display: flex;
+body {
+  background-image: url("background.jpg");
+  display: flex;
 }
 
 .container {
-    color: white;
-    display: flex;
-    padding: 1rem;
-    width: 100%;
+  color: white;
+  display: flex;
+  padding: 1rem;
+  width: 100%;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 50px;
+  width: 100%;
 }
 
 .content__image {
-    border-radius: 50%;
-    height: 100px;
-    margin: 0 auto;
-    width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
 }
 
 .content__name {
-    margin: 0 auto;
+  margin: 0 auto;
+}
+
+.content__information {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .content__description {
-    font-size: 0.875rem;
-    margin: 0 auto;
-    text-align: justify;
+  font-size: 0.875rem;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.content__location {
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.content__icon {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 5px solid red;
+  border-radius: 100%;
+}
+
+.content__icon::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin: 1px 0 0 -6px;
+  display: block;
+  content: "";
+  border: 6px solid transparent;
+  border-top: 10px solid red;
+  border-bottom: none;
 }
 
 .content__link-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .content__link {
-    border: 1.5px solid white;
-    border-radius: 0.5rem;
-    color: white;
-    display: flex;
-    font-size: 1rem;
-    height: 4rem;
-    padding: 0.5rem;
-    text-decoration: none;
-    width: 100%;
+  border: 1.5px solid white;
+  border-radius: 0.5rem;
+  color: white;
+  display: flex;
+  font-size: 1rem;
+  height: 4rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  width: 100%;
 }
 
 .content__link-text {
-    margin: auto;
+  margin: auto;
 }
 
 @media (min-width: 700px) {
-    .container {
-      margin: 0 auto;
-      width: 700px;
-    }
+  .container {
+    margin: 0 auto;
+    width: 700px;
+  }
 
-    .content {
-        gap: 2rem;
-        margin-top: 100px;
+  .content {
+    gap: 2rem;
+    margin-top: 100px;
   }
 
   .content__description {
