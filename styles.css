@@ -56,3 +56,27 @@ body {
     margin: auto;
 }
 
+@media (min-width: 700px) {
+    .container {
+      margin: 0 auto;
+      width: 700px;
+    }
+
+    .content {
+        gap: 2rem;
+        margin-top: 100px;
+  }
+
+  .content__description {
+    font-size: 1rem;
+  }
+
+  .content__name {
+    font-size: 1.125rem;
+  }
+
+  .content__link {
+    background-color: #f4f2f9;
+    color: black;
+  }
+}
