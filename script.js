@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const listItem = document.createElement("a");
         listItem.className = "content__link shake";
         listItem.href = link.url;
+        listItem.target = "_blank";
 
         const itemText = document.createElement("p");
         itemText.className = "content__link-text";
