@@ -29,3 +29,12 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch((error) => console.error("Error fetching content from JSON", error));
 });
+
+document.getElementsByClassName("content__resume")[0].addEventListener("click", function () {
+  const link = document.createElement("a");
+  link.href = "resume.pdf";
+  link.download = "Currículo Havyner Caetano.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
