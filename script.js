@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         linksList.appendChild(line);
 
         const listItem = document.createElement("a");
-        listItem.className = "content__link";
+        listItem.className = "content__link shake";
         listItem.href = link.url;
 
         const itemText = document.createElement("p");
