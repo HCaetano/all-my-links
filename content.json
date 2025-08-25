@@ -1,11 +1,11 @@
-{ 
-    "name": "Havyner Caetano",
-    "avatar": "./me.jpg",
-    "description": "Pessoa desenvolvedora front-end",
-    "location": "Barreiras, Bahia",
-    "links": [
-        { "name": "GitHub", "url": "https://github.com/HCaetano" },
-        { "name": "LinkedIn", "url": "https://www.linkedin.com/in/havyner-caetano/" },
-        { "name": "Portfólio", "url": "https://credit-card-register.web.app/" }
-    ]
+{
+  "name": "Havyner Caetano",
+  "avatar": "./me.jpg",
+  "description": "Pessoa desenvolvedora front-end",
+  "location": "Barreiras, Bahia",
+  "links": [
+    { "name": "GitHub", "url": "https://github.com/HCaetano" },
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/havyner-caetano/" },
+    { "name": "Portfólio", "url": "https://credit-card-register.web.app/" }
+  ]
 }

@@ -20,10 +20,12 @@ body {
 }
 
 .content__image {
-  border-radius: 30%;
-  height: 145px;
+  border-radius: 50%;
+  height: 128px;
   margin: 0 auto;
-  width: 100px;
+  object-fit: cover;
+  object-position: 50% 70%;
+  width: 128px;
 }
 
 .content__name {

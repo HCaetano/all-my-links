@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.getElementsByClassName("content__resume")[0].addEventListener("click", function () {
   const link = document.createElement("a");
-  link.href = "resume.pdf";
+  link.href = "Havyner Caetano resume.pdf";
   link.download = "Currículo Havyner Caetano.pdf";
   document.body.appendChild(link);
   link.click();
